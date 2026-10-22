@@ -1,17 +1,11 @@
 # Classificação de classes de energia renovável
 
-Projeto desenvolvido em Python para analisar o dataset `Renewable_Energy_Data.csv` e classificar a variável-alvo `Energy_Class`, conforme os requisitos do PDF.
 
-## O que o projeto faz
-1. Carrega o CSV em um DataFrame pandas.
-2. Codifica `Energy_Class` como `Low = 0`, `Medium = 1`, `High = 2`.
-3. Codifica variáveis categóricas com one-hot encoding para a matriz de correlação.
-4. Salva a matriz de correlação e as correlações com a variável-alvo.
-5. Treina uma **Regressão Logística**, classificador linear do scikit-learn.
-6. Compara dois cenários com `random_state=42` e divisão estratificada:
-   - 60% treino / 40% teste;
-   - 85% treino / 15% teste.
-7. Gera matrizes de confusão, acurácia, precisão ponderada, recall ponderado e relatórios de classificação.
+## Integrantes
+Arthur Araujo Massarioli - RM: 573308
+Daniel Alejandro Pupo Martínez - RM: 573075
+Victor Hugo Lavaqui - RM: 573838
+Wendel Pedro Rezende - RM: 573126
 
 ## Por que Regressão Logística?
 Apesar do nome, a regressão logística é usada para classificação. Ela calcula combinações lineares das variáveis de entrada e transforma os resultados em probabilidades por classe. As fronteiras de decisão são lineares no espaço das features após o pré-processamento.

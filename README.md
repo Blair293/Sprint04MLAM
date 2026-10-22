@@ -1,8 +1,17 @@
 # Classificação de Energia Renovável
 
+<<<<<<< HEAD
 ## Sobre o projeto
 
 Este projeto utiliza o dataset **Renewable Energy Production Dataset (2010–2020)** para analisar e classificar a variável `Energy_Class` com Python. O trabalho segue as etapas solicitadas na atividade: preparação dos dados, análise de correlação, aplicação de um modelo de classificação linear e avaliação do desempenho em dois cenários de treinamento e teste.
+=======
+
+## Integrantes
+Arthur Araujo Massarioli - RM: 573308
+Daniel Alejandro Pupo Martínez - RM: 573075
+Victor Hugo Lavaqui - RM: 573838
+Wendel Pedro Rezende - RM: 573126
+>>>>>>> edd4dd75089236a67551d5535d330c2289519979
 
 ## Objetivos
 

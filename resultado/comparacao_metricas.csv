@@ -1,0 +1,3 @@
+cenario,treino_percentual,teste_percentual,n_treino,n_teste,acuracia,precisao_weighted,recall_weighted
+cenario_60_treino_40_teste,60,40,600,400,0.7625,0.7630970906133328,0.7625
+cenario_85_treino_15_teste,85,15,850,150,0.78,0.7740764306193787,0.78
